@@ -92,11 +92,14 @@ clean up all the inter-module references, and without a whole new
       -q|--quiet
         Suppress DEBUG messages
 
+    --wtk
+      If the tree-kill npm package is installed, enables enhanced compatibility with the Windows OS command line.
+
 
     Options available after start:
       rs - restart process. Useful when you want to restart your program even
            if no file has changed.
-
+      q - quit supervisor process and return to initial command line prompt
 
     Examples:
       supervisor myapp.js
